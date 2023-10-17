@@ -119,16 +119,32 @@
 }
 
 .continue-btn {
+    cursor: pointer;
     border: none;
     width: 100%;
-    background-color: hsl(224, 30%, 27%);
+    background: hsl(224, 30%, 27%);
     color: white;
     padding: 20px;
     border-radius: 50px;
     font-size: 18px;
     font-weight: 500;
     margin-top: 10px;
+    transition: 0.5s;
+    background: linear-gradient(90deg, var(--c1, hsl(224, 30%, 27%)), var(--c2, hsl(224, 30%, 27%)) 51%, var(--c1, hsl(224, 30%, 27%))) var(--x, 0)/ 200%;
 }
+
+/* .continue-btn:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+} */
+  
+  .continue-btn:hover { --x: 100%; }
+  
+  .continue-btn {
+    --c1: hsl(252, 100%, 67%);
+    --c2: hsl(241, 81%, 54%);
+  }
+  
+
 
 .attribution {
     margin: 20px 30px;
