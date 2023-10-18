@@ -157,3 +157,57 @@
 a {
     text-decoration: none;
 }
+
+@media (width >= 1440px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .flex {
+        position: absolute;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 30px;
+        width: 50%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .blue-section, .white-section {
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    .score-circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .num-lg {
+        font-size: 64px;
+    }
+
+    .num-sm {
+        font-size: 20px;
+    }
+
+    .great-txt {
+        font-size: 24px;
+    }
+
+    .score-msg {
+        font-size: 18px;
+        margin: 0 30px;
+    }
+
+    .summary {
+        font-size: 24px;
+    }
+
+    .attribution {
+        margin-top: auto;
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+}
