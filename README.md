@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [](https://beamish-panda-44d703.netlify.app)
+- Live Site URL: [https://beamish-panda-44d703.netlify.app]
 
 ## My process
 
@@ -34,4 +34,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@byaskew3](https://www.frontendmentor.io/profile/byaskew3)
-- LinkedIn - [@yourusername](https://www.linkedin.com/in/christian-askew/)
+- LinkedIn - [christian-askew](https://www.linkedin.com/in/christian-askew/)
